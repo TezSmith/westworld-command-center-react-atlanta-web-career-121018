@@ -17,7 +17,7 @@ The styling is a mix of pre-written CSS and Semantic components. Don't worry abo
 
 Setup
 =====
-Watch a walk through of what's expected to complete this challenge here: https://youtu.be/GhCazAgsJzw
+Watch a walk through of what's expected to complete this challenge here:
 
 Clone
 -----
@@ -67,8 +67,8 @@ Checkpoint 5: Host Behavior
 ---------------------------
 Follow these rules for selecting and moving hosts:
 
-1. Clicking a `Host` selects them with a red border and displays their information in the `HostInfo` component. Styling has been given via classNames (see Host component).
-2. Only one `Host` can be selected at a time.
+<!-- 1. Clicking a `Host` selects them with a red border and displays their information in the `HostInfo` component. Styling has been given via classNames (see Host component). -->
+<!-- 2. Only one `Host` can be selected at a time. -->
 3. Only one `Host` can exist on the screen at a time. If they're in `Cold Storage` then they're not on the `WestworldMap` and visa versa.
 4. If a host's `active` attribute is set to `false` then they are decommissioned and should appear in `ColdStorage`. The `HostInfo` radio button should reflect this as well, reading "Active" if `active: true` and "Decomissioned" if `active: false`.
 5. The Area dropdown should be pre-selected with the area the host is currently in, even if they are in `ColdStorage`.
